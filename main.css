@@ -32,6 +32,7 @@ a {
 
 ul {
   list-style: none;
+  justify-content: space-between;
 }
 
 /* Empik Button Style */
@@ -99,6 +100,7 @@ ul {
 .description {
   position: relative;
   width: 100%;
+  justify-content: space-between;
 }
 
 .book-title {
@@ -148,8 +150,40 @@ a {
 .books-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 65vh);
+  grid-template-rows: repeat(4, 70vh);
   gap: 20px;
+}
+
+@media screen and (max-width: 1600px) {
+  .books-list {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 70vh);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .books-list {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 70vh);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .books-list {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 125vh);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  header {
+    width: 750px;
+    position: relative;
+    align-items: center;
+  }
 }
 
 /* Book Counter Start */

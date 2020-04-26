@@ -15,21 +15,23 @@
   <body>
     <div class="container">
       <header>
-        <h1>Lista Książek :)</h1>
-        <div class="search-container">
+        <h2>Bookshelf</h2>
+        <h6>Twoja prywatna wirtualna półka</h6>
+        <form class="search-container">
           <p class="search-title">
             Jakiej książki szukasz?
           </p>
           <input
             class="search-input"
+            name="search-bar"
             type="text"
             placeholder="Wpisz tytuł książki"
           />
-        </div>
+        </form>
       </header>
 
       <!-- Books list -->
-      <section class="books-list">
+      <div class="books-list">
         <div class="main-books">
           <img
             src="https://ecsmedia.pl/c/zero-zero-zero-jak-kokaina-rzadzi-swiatem-b-iext43442770.jpg"
@@ -309,21 +311,30 @@
 
         <div class="main-books">
           <img
-            src="https://d827xgdhgqbnd.cloudfront.net/wp-content/uploads/2016/04/09121712/book-cover-placeholder.png"
-            alt="Placeholder."
+            src="https://ecsmedia.pl/c/cmentarz-w-pradze-b-iext34512177.jpg"
+            alt="Cmentarz w Pradze."
           />
 
           <div class="description">
-            <a href="Placeholder" class="title-link" target="_blank">
-              <h3 class="book-title">Placeholder.</h3>
+            <a
+              href="https://www.empik.com/cmentarz-w-pradze-eco-umberto,p1044912708,ksiazka-p"
+              class="title-link"
+              target="_blank"
+            >
+              <h3 class="book-title">Cmentarz w Pradze.</h3>
             </a>
             <p class="sub-title">
-              Placeholder.
+              Akcja powieści rozgrywa się w XIX wieku a jej bohaterem jest
+              Simone Simonini, cyniczny fałszerz który świadczy usługi wywiadom
+              wielu krajów. Obsesyjny antysemita który nienawidzi również
+              jezuitów, masonów i.. kobiet.
             </p>
 
             <span class="author"
               >Autor:
-              <a href="Placeholder">Placeholder</a>
+              <a href="https://www.empik.com/szukaj/produkt?author=eco+umberto"
+                >Eco Umberto</a
+              >
             </span>
             <br />
             <!-- <a class="empik-link" href="https://www.empik.com/co-nas-nie-zabije-wright-jennifer,p1236883256,ksiazka-p">
@@ -331,8 +342,109 @@
           </a> -->
           </div>
         </div>
-        <div id="result">Liczba książek w zbiorze:</div>
-      </section>
+
+        <div class="main-books">
+          <img
+            src="https://ecsmedia.pl/c/stan-lee-czlowiek-marvel-b-iext53451962.jpg"
+            alt="Stan Lee. Człowiek-Marvel."
+          />
+
+          <div class="description">
+            <a
+              href="https://www.empik.com/stan-lee-czlowiek-marvel-batchelor-bob,p1213424090,ksiazka-p"
+              class="title-link"
+              target="_blank"
+            >
+              <h3 class="book-title">Stan Lee. Człowiek-Marvel.</h3>
+            </a>
+            <p class="sub-title">
+              Szczera, prawdziwa i wciągająca opowieść o człowieku, który marzył
+              o karierze pisarskiej, a zrobił o wiele więcej: odmienił oblicze
+              amerykańskiej popkultury.
+            </p>
+
+            <span class="author"
+              >Autor:
+              <a
+                href="https://www.empik.com/szukaj/produkt?author=batchelor+bob"
+                >Batchelor Bob</a
+              >
+            </span>
+            <br />
+            <!-- <a class="empik-link" href="https://www.empik.com/co-nas-nie-zabije-wright-jennifer,p1236883256,ksiazka-p">
+            <span class="empik-btn">Empik </span><i class="fas fa-chevron-right"></i>
+          </a> -->
+          </div>
+        </div>
+
+        <div class="main-books">
+          <img
+            src="https://ecsmedia.pl/c/sztuka-rynkologii-b-iext47251695.jpg"
+            alt="Sztuka rynkologii."
+          />
+
+          <div class="description">
+            <a
+              href="https://www.empik.com/sztuka-rynkologii-kotarbinski-jacek,p1135486536,ebooki-i-mp3-p"
+              class="title-link"
+              target="_blank"
+            >
+              <h3 class="book-title">Sztuka rynkologii.</h3>
+            </a>
+            <p class="sub-title">
+              Nie obawiaj się o to, „co powie rynek” - stwórz własny!
+            </p>
+
+            <span class="author"
+              >Autor:
+              <a
+                href="https://www.empik.com/szukaj/produkt?author=kotarbi%C5%84ski+jacek"
+                >Kotarbiński Jacek</a
+              >
+            </span>
+            <br />
+            <!-- <a class="empik-link" href="https://www.empik.com/co-nas-nie-zabije-wright-jennifer,p1236883256,ksiazka-p">
+            <span class="empik-btn">Empik </span><i class="fas fa-chevron-right"></i>
+          </a> -->
+          </div>
+        </div>
+
+        <div class="main-books">
+          <img
+            src="https://ecsmedia.pl/c/amerykanscy-bogowie-b-iext46068784.jpg"
+            alt="Amerykańscy Bogowie."
+          />
+
+          <div class="description">
+            <a
+              href="https://www.empik.com/amerykanscy-bogowie-gaiman-neil,p1131255406,ksiazka-p"
+              class="title-link"
+              target="_blank"
+            >
+              <h3 class="book-title">Amerykańscy Bogowie.</h3>
+            </a>
+            <p class="sub-title">
+              „Oryginalna, wciągająca i niezwykle pomysłowa pikarejska podróż po
+              Ameryce, w której podróżni są dziwniejsi nawet od najdziwniejszych
+              atrakcji turystycznych”. George R.R. Martin
+            </p>
+
+            <span class="author"
+              >Autor:
+              <a
+                href="https://www.empik.com/szukaj/produkt?author=kotarbi%C5%84ski+jacek"
+                >Gaiman Neil</a
+              >
+            </span>
+            <br />
+            <!-- <a class="empik-link" href="https://www.empik.com/co-nas-nie-zabije-wright-jennifer,p1236883256,ksiazka-p">
+            <span class="empik-btn">Empik </span><i class="fas fa-chevron-right"></i>
+          </a> -->
+          </div>
+        </div>
+      </div>
+      <div id="result">Liczba książek w zbiorze:</div>
     </div>
+    <script src="search.js"></script>
   </body>
 </html>
